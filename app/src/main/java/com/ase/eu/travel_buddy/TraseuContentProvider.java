@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 public class TraseuContentProvider extends ContentProvider {
-    public static final String AUTHORITY = "com.ase.eu.android_pdm";
+    public static final String AUTHORITY = "com.ase.eu.travel_buddy";
 
     public static final Uri CONTENT_URI= Uri.parse("content://"+AUTHORITY+"/traseu");
 
