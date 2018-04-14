@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.ase.eu.android_pdm"
+        applicationId "com.ase.eu.travel_buddy"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1

@@ -1,4 +1,4 @@
-package com.ase.eu.android_pdm;
+package com.ase.eu.travel_buddy;
 
 import android.content.Intent;
 import android.graphics.Color;

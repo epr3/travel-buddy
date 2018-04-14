@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ase.eu.android_pdm">
+    package="com.ase.eu.travel_buddy">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -45,7 +45,7 @@
 
         <provider
             android:name=".TraseuContentProvider"
-            android:authorities="com.ase.eu.android_pdm"
+            android:authorities="com.ase.eu.travel_buddy"
             android:permission="com.ase.eu.android_pdm.READ_WRITE" />
 
         <service
