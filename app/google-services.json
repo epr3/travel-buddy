@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "351959010303",
+    "firebase_url": "https://travelbuddy-b3014.firebaseio.com",
+    "project_id": "travelbuddy-b3014",
+    "storage_bucket": "travelbuddy-b3014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351959010303:android:2f61d7731fba9060",
+        "android_client_info": {
+          "package_name": "com.ase.eu.travel_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351959010303-a90dpjk23n7svlfrkce108s2vqjo5dg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvpXY8Dt1XIefC_-zNz2FI-pKi_-Z7y5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
