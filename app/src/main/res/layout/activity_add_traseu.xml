@@ -16,7 +16,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="358dp"
             android:layout_height="wrap_content"
-            android:hint="Denumire" />
+            android:hint="@string/denumire" />
     </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
@@ -29,14 +29,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Start" />
+            android:text="@string/start"
+            android:theme="@style/LoginButton"/>
 
         <Button
             android:id="@+id/stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Stop" />
+            android:text="@string/stop"
+            android:theme="@style/RegisterButton"/>
 
     </LinearLayout>
 

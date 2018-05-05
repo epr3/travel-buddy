@@ -3,6 +3,8 @@ package com.ase.eu.travel_buddy;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,6 +19,9 @@ public class Traseu implements Serializable{
     private Date dataStart;
     private Date dataFinal;
     private Integer distanta;
+
+    @Ignore
+    private Uri picture;
 
     @Ignore
     private List<Punct> listaPuncte;
@@ -69,15 +74,37 @@ public class Traseu implements Serializable{
         this.distanta = distanta;
     }
 
-    public Traseu(String denumire, Date dataStart, Date dataFinal, Integer distanta, List<Punct> listaPuncte){
+    public Uri getPicture() {
+        return picture;
+    }
+
+    public void setPicture(Uri picture) {
+        this.picture = picture;
+    }
+
+    public Traseu(Integer id, String denumire, Date dataStart, Date dataFinal, Integer distanta, Uri picture, List<Punct> listaPuncte) {
+        this.id = id;
         this.denumire = denumire;
         this.dataStart = dataStart;
         this.dataFinal = dataFinal;
         this.distanta = distanta;
+        this.picture = picture;
         this.listaPuncte = listaPuncte;
     }
 
     public Traseu() {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Traseu{" +
+                "id=" + id +
+                ", denumire='" + denumire + '\'' +
+                ", dataStart=" + dataStart +
+                ", dataFinal=" + dataFinal +
+                ", distanta=" + distanta +
+                ", listaPuncte=" + listaPuncte +
+                '}';
     }
 }

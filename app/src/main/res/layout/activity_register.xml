@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView2"
+            android:layout_width="255dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/tb_logo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/et_newuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/usershape"
+            android:drawableStart="@drawable/usershape"
+            android:ems="10"
+            android:hint="@string/hint_user"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <EditText
+            android:id="@+id/et_newpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/padlock"
+            android:drawableStart="@drawable/padlock"
+            android:ems="10"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnRegister"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Register"
+            android:theme="@style/RegisterButton"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
