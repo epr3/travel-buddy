@@ -201,7 +201,8 @@ public class LoginActivity extends AppCompatActivity {
         infoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginActivity.this,"Btn twitter",Toast.LENGTH_LONG).show();
+                Intent myIntent = new Intent(LoginActivity.this, InfoActivity.class);
+                startActivity(myIntent);
                 fam.close(true);
             }
         });

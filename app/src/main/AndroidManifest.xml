@@ -79,7 +79,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".SetLocationPicture" />
         <activity android:name=".AlbumActivity" />
-        <activity android:name=".GalleryPreviewActivity"></activity>
+        <activity android:name=".GalleryPreviewActivity" />
+        <activity android:name=".InfoActivity"></activity>
     </application>
 
 </manifest>

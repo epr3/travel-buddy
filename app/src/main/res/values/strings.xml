@@ -34,4 +34,10 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="denumire">Denumire</string>
+    <string name="dev">Dezvoltatori</string>
+    <string name="de1">Predescu Eduard</string>
+    <string name="de2">Stefan Alexandru</string>
+    <string name="de3">Zaharia Alexis</string>
+    <string name="contact">Contacteaza-ne</string>
+    <string name="mail">travelbuddydevteam@gmail.com</string>
 </resources>
