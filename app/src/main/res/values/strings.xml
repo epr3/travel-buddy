@@ -28,7 +28,7 @@
     <string name="setLocationPicture">Set picture</string>
     <string name="getLocationPicture">Get picture</string>
     <string name="fillReq">\"Please fill the field!\"</string>
-    <string name="specialChar">\"Must containt the \'@\' character!\"</string>
+    <string name="specialChar">\"Must contain the \'@\' character!\"</string>
     <string name="hint_user"> Email</string>
     <string name="hint_pass"> Password</string>
     <string name="start">Start</string>
